@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    width: auto;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(170deg, rgb(243, 243, 243) 0%, rgba(230,241,255,1) 100%);
+    
+}
+
+/* Nav Bar */
+
+.navbar {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    
+    
+}
+
+.navbar h1 {
+    font-size: 1.5rem; 
+    }
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar nav {
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
+  }
+
+  .navbar img {
+    width: auto;
+    height: 21px;
+  }
+
+  /* Olá */
+
+  .olapage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .fotocv {
+    width: auto; 
+  }
+
+  .fotocv img {
+    border-radius: 0.7rem;
+    box-shadow: 5px 5px 40px rgb(210, 210, 210);
+  }
+
+  .olatext {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 7rem;
+    
+  }
+
+  /* Sobre */
+
+  .sobrepage {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .sobrepage h1 {
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 15px;
+  }
+
+  .sobrepage p {
+    font-size: 25px;
+  }
+
+  /* Competencias */
+
+  .competencias {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .competencias h1 {
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+  }
+
+  .divcompetencias {
+    width: 45%;
+  }
+
+  .divoutrascompetencias {
+    width: 50%;
+    padding-left: 5rem;
+  }
+
+.frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 250px;
+    align-content: space-around;
+}
+
+.frames2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 250px;
+    align-content: stretch;
+}
+
+  .frame1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 2px solid #000;
+    background: #FFF;
+    height: 3rem;
+    width: 7rem;
+  }
+
+  .frame2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 2px solid #000;
+    background: #FFF;
+    height: 3rem;
+    width: 7rem;
+  }
+
+
+/* Experiência */
+
+.experiencia {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .experiencia h1 {
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 15px;
+  }
+
+  
+  /* Portfolio */
+
+  .portfolio {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .portfolio h1 {
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 15px;   
+  }
+
+  .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/*  Footer */
+
+footer {
+
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+
+.p1 {
+  font-size: 10pt;
+}
